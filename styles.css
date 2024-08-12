@@ -44,6 +44,7 @@ header {
     width: calc(100vw - 100px);
     border: 5px solid #e2e1e3;
     border-radius: 40px;
+    background-size: cover;
 }
 
 #thousand {
@@ -67,7 +68,7 @@ header {
 #guess-a-number-container {
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 #guess-a-number {
@@ -96,7 +97,7 @@ header {
 #text-box-container {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 #text-box {
@@ -104,13 +105,48 @@ header {
     height: 100px;
     text-align: center;
     font-size: 40px;
-    color: #95a4d4;
+    color: #6a3758;
     background-color: transparent;
     outline: none;
     border-bottom: 2px solid #ce748e;
-    line-height: 30px;
 }
 
 #text-box::placeholder {
-    color: #ce748e
+    color: black;
+}
+#message {
+    font-size: 50px;
+}
+
+#submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#submit-button {
+    width: 150px;
+    height: 60px;
+    font-weight: bolder;
+    font-size: 40px;
+    background: linear-gradient(to right, #ce748e 5%, rgba(255, 255, 255, 0) 95%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: 4px solid #ce748e;
+    margin-top: 15px;
+
+    
+}
+
+#message {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    color: lightskyblue;
+    margin-top: 50px;
+    font-size: 100px;
+    font-weight: bolder;
 }
