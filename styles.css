@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #9fbbf7;
+    background-color: #6a3758;
     padding: 30px;
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@ header {
     background-image: url(./images/beach-background.jpg);
     height: calc(100vh - 100px);
     width: calc(100vw - 100px);
-    border: 5px solid white;
+    border: 5px solid #e2e1e3;
     border-radius: 40px;
 }
 
@@ -74,7 +74,43 @@ header {
     font-size: 60px;
 }
 
-#any-number {
-    font-size: 20px;
+#any-number-container {
+    display: flex;
+    justify-content: center;
 }
 
+#any-number {
+    font-size: 30px;
+}
+
+#one-hundred-container {
+    display: flex;
+    justify-content: center;
+}
+
+#one-hundred {
+    font-size: 25px;
+    color: #ce748e;
+}
+
+#text-box-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#text-box {
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: #95a4d4;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid #ce748e;
+    line-height: 30px;
+}
+
+#text-box::placeholder {
+    color: #ce748e
+}
