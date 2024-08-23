@@ -4,6 +4,7 @@
     border: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: monospace, 'Times New Roman';
 }
 
 body {
@@ -68,7 +69,7 @@ header {
 #guess-a-number-container {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 #guess-a-number {
@@ -112,7 +113,7 @@ header {
 }
 
 #text-box::placeholder {
-    color: black;
+    color: #ce748e;
 }
 #message {
     font-size: 50px;
@@ -145,8 +146,14 @@ header {
     display: flex;
     height: 50px;
     justify-content: center;
-    color: lightskyblue;
-    margin-top: 50px;
-    font-size: 100px;
+    color: black;
+    margin-top: 150px;
+    font-size: 125px;
     font-weight: bolder;
+}
+
+#user-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
 }
